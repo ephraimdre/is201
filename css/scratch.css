@@ -1,0 +1,128 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: rgb(252, 212, 219);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    position: fixed;
+    width: 97%;
+    z-index: 10;
+    top: 0;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    max-height: 100px;
+}
+
+.homebar {
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    display: list-item;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.app {
+    color: black;
+    font-size: 18px;
+    float: right;
+    padding-right: 15px;
+    margin-top: -45px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.app:hover {
+    border-style: hidden;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.frisbee {
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    align-items: center;
+    padding-top: 10%;
+    border-radius: 10px;
+}
+
+.frisbee-lists {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.frisbee-category {
+    background-color: rgb(209, 230, 241);
+    padding: 20px;
+    border-radius: 7px;
+    width: 280px;
+    text-align: left;
+}
+
+.highlight {
+    color: darkblue;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: 40px auto;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.video {
+    border: none;
+    width: 516px;
+    height: 290px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.tableau {
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.professionalpage {
+    background-color: rgb(176, 212, 221);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    padding-right: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(238, 193, 227);
+    border-radius: 10px;
+}
+
+footer :hover {
+    background-color: lightgrey;
+}
